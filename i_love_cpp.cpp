@@ -2,11 +2,11 @@
 
 int main()
 {
-	std::cout<<"i love Kuzmich"<<std::endl;
-	int a = 0;
-	std::cout << a << std::endl;
-	std::cin >> a;
-	std::cout << a << std::endl;
-	
+	std::cout<<"Hello user!" << std::endl;
+	int number;
+	std::cout << "please enter a number";
+	std::cin >> number;
+	std::cout << "you entered" << number <<  std::endl;
+	return 0;
 
 }
